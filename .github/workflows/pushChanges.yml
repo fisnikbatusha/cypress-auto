@@ -3,7 +3,7 @@ name: Automated Cypress Tests on push
 on: push
 
 jobs:
-  cypress-run:
+  cypress-run-on-push:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
