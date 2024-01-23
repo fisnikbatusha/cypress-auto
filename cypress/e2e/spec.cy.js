@@ -2,7 +2,7 @@ import loginPagePoPet from "./loginPagePoPet";
 
 const homeURL = Cypress.config().baseUrl;
 
-describe('template spec', () => {
+describe('template spec - edit', () => {
   it('Login test', () => {
     cy.visit(homeURL);
     cy.get('a').contains('Sign In').click();
